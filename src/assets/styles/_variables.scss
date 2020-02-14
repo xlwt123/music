@@ -1,0 +1,59 @@
+// 颜色定义规范
+$colors: (
+  'bg': #222,
+  'bg-d': rgba(0, 0, 0, 0.3),
+  'bg-h': #333,
+  'bg-dia': #666,
+  'theme': #ffcd32,
+  'theme-d': rgba(255, 205, 49, 0.5),
+  'theme-s': #d93f30,
+  'text': #fff,
+  'text-d': rgba(255, 255, 255, 0.3),
+  'text-l': rgba(255, 255, 255, 0.5),
+  'text-ll': rgba(255, 255, 255, 0.8)
+);
+// 字体定义规范
+$font-sizes: (
+  'xs': 10px,
+  's': 12px,
+  'm': 14px,
+  'xm': 16px,
+  'l': 18px,
+  "xl": 22px
+);
+
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around
+);
+
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch
+);
+
+$spacing-types: (
+  m: margin,
+  p: padding
+);
+
+$spacing-direction: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+
+$spacing-sizes: (
+  0: 0px,
+  1: 4px,
+  2: 8px,
+  3: 16px,
+  4: 24px,
+  5: 45px
+);
