@@ -87,7 +87,7 @@ export default {
     selectItem(item) {
       this.$emit('select')
       if (item.type === TYPE_SINGER) {
-        console.log('toSinger') 
+        // console.log('toSinger')
       } else {
         let song = item
         this.completeSong(song)
